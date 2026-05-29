@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio site for Likith Battigiri, focused on software, web projects, and practical engineering work."
+    />
+    <title>Likith Battigiri | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Likith Battigiri home">
+          <span class="brand-mark">LB</span>
+          <span>Likith Battigiri</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Developer Portfolio</p>
+          <h1>Building clean, useful web experiences with practical engineering.</h1>
+          <p class="hero-text">
+            I create responsive websites, interactive user interfaces, and project-focused software
+            that is easy to use, maintain, and ship.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Portfolio highlights">
+          <div class="metric">
+            <span>Focus</span>
+            <strong>Web Apps</strong>
+          </div>
+          <div class="metric">
+            <span>Style</span>
+            <strong>Responsive UI</strong>
+          </div>
+          <div class="metric">
+            <span>Strength</span>
+            <strong>Problem Solving</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Hi, I am Likith.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            I am interested in building software that turns ideas into working products. My work
+            combines front-end development, clear structure, and a steady focus on user experience.
+          </p>
+          <p>
+            This site is designed as a simple starting point for showcasing projects, skills, and
+            contact details while staying easy to customize as the portfolio grows.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Portfolio</span>
+              <span>HTML/CSS/JS</span>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A fast static site with responsive sections for projects, skills, and contact
+              information.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Frontend</span>
+              <span>Responsive UI</span>
+            </div>
+            <h3>Interactive Web Interfaces</h3>
+            <p>
+              Clean layouts and reusable interface patterns built for readability across desktop and
+              mobile screens.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Engineering</span>
+              <span>Problem Solving</span>
+            </div>
+            <h3>Practical Software Builds</h3>
+            <p>
+              Project-driven development focused on solving real workflow problems with maintainable
+              code.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="skills">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths</h2>
+        </div>
+        <ul class="skill-list" aria-label="Skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Git and GitHub</li>
+          <li>UI Development</li>
+        </ul>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something useful.</h2>
+          <p>
+            Add your preferred email, LinkedIn, and project links here so visitors can reach you
+            directly.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:likith@example.com">likith@example.com</a>
+          <a href="https://github.com/likithb" rel="noreferrer" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/" rel="noreferrer" target="_blank">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Likith Battigiri. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
